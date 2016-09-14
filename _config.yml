@@ -1,0 +1,68 @@
+# Website details
+name: "Finesfera"
+description: "Blog sobre finanzas personales, ahorro y una vida sencilla"
+email: "finesfera@protonmail.com"
+author: "Finesfera"
+lang: "es"
+locale: "es"
+
+gems: [jekyll-paginate, jekyll-paginate-category]
+
+# Jekyll
+paginate: 10
+markdown: kramdown
+
+paginate_path: "page:num"
+
+category_dir: "categoria"
+category_layout: "_layouts/category-index.html"
+
+gems: 
+  - jekyll-paginate
+  - jekyll-archives
+  - jekyll-paginate-category
+
+timezone: Europe/London
+paginateLabel: pagina
+paginate_path: "pagina/:num"
+permalink: /:year/:month/:title
+
+url: "http://finesfera.com"
+
+# Includes
+addthisId: ""
+disqusUsername: ""
+googleAnalyticsId: ""
+
+# Search engine verifications
+bing: ""
+yandex: ""
+google: ""
+
+#Sitemap
+sitemap:
+    file: "/sitemap.xml"
+    exclude:
+        - "/404.html"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "daily"
+    priority_name: "1.00"
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+compress_html:
+  comments: ["<!-- ", " -->"]
+
+include: [.nojekyll]
+
+
+jekyll-archives:
+  enabled:
+    - categories
+  layouts:
+    category: category-index
+  permalinks:
+    category: '/categoria/:name/'

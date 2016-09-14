@@ -1,0 +1,94 @@
+---
+layout: default
+category_page: true
+---
+
+{% if page.paginator %}
+    {% assign paginator = page.paginator %}
+{% endif %}
+
+<!-- Loop for posts by paginator -->
+{% for post in paginator.posts %}
+    <article class="post type-post status-publish format-standard has-post-thumbnail hentry category-other category-widget" itemscope="" itemtype="https://schema.org/BlogPosting">
+        <header class="post-head">
+            <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+            {% assign m = post.date | date: "%-m" %}
+            {{ post.date | date: "%-d" }} / {% case m %}
+                {% when "1" %}Enero
+                {% when "2" %}Febrero
+                {% when "3" %}Marzo
+                {% when "4" %}Abril
+                {% when "5" %}Mayo
+                {% when "6" %}Junio
+                {% when "7" %}Julio
+                {% when "8" %}Agosto
+                {% when "9" %}Septiembre
+                {% when "10" %}Octubre
+                {% when "11" %}Noviembre
+                {% when "12" %}Diciembre
+            {% endcase %}/ {{ post.date | date: "%Y" }}
+            </time><!-- /.post-date -->
+            <h3 class="post-title">
+                <a title="{{ post.title }}" href="{{ site.baseurl }}{{ post.url }}" itemprop="url">{{ post.title }}</a>
+            </h3>
+            <ul class="post-category">
+                {% for category in post.categories %}
+                    <li><a href="/categoria/{{ category }}/" rel="category tag">{{ category | upcase }}</a></li>
+                {% endfor %}
+            </ul>
+        </header>
+        <!-- /.post-head -->
+        <!-- If article has a cover photo -->
+        {% if post.coverPhoto %}
+            <div class="post-image">
+                <a href="{{ site.baseurl }}{{ post.url }}">
+                    <img width="1280" src="/assets/img/{{ post.coverPhoto }}" class="attachment-featured-image size-featured-image wp-post-image" alt="">           
+                </a>
+            </div>
+        {% endif %}
+
+        <!-- /.post-image -->
+        <div class="post-body">
+            <div class="entry" itemprop="articleBody">
+                {{ post.excerpt }}
+            </div>
+            <!-- /.entry -->
+        </div>
+        <!-- /.post-body -->
+        <div class="post-actions">
+            <a href="{{ site.baseurl }}{{ post.url }}" class="button tiny grey">Leer más</a>
+        </div>
+        <!-- /.post-nav -->
+    </article>
+    <!-- /.post -->
+{% endfor %}
+
+
+{% if page.title %}
+{% assign category = page.title %}
+{% endif %}
+
+{% if paginator.total_pages > 1 %}
+    <div class="pagination-centered">
+        <ul class="pagination">
+
+    <!--        {% if paginator.previous_page %}
+                <li class="prev"><a href="{{ paginator.previous_page_path }}">&laquo; Previos</a></li>
+            {% endif %} -->
+
+            {% for page in (1..paginator.total_pages) %}
+                {% if page == paginator.page %}
+                  <li class="current"><a href="#">{{ page }}</a></li>
+                {% elsif page == 1 %}
+                  <li class=""><a href="/categoria/{{ category }}">{{ page }}</a></li>
+                {% else %}
+                  <li class=""><a href="{{ site.baseurl }}/categoria/{{ category }}/pagina/{{ page }}">{{ page }}</a></li>
+                {% endif %}
+            {% endfor %}
+
+            {% if paginator.next_page %}
+                <li class=""><a href="{{ site.baseurl }}/categoria/{{ category }}/pagina/{{ paginator.page | plus: 1 }}">Siguiente &raquo;</a></li>
+            {% endif %}
+        </ul>
+    </div>
+{% endif %}

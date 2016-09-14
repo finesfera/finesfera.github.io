@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+<article class="post type-post status-publish format-standard hentry category-other category-widget" itemscope="" itemtype="https://schema.org/BlogPosting">
+    <header class="post-head">
+    	<time class="post-date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+    		{% assign m = page.date | date: "%-m" %}
+			{{ page.date | date: "%-d" }} / {% case m %}
+				{% when "1" %}Enero
+				{% when "2" %}Febrero
+				{% when "3" %}Marzo
+				{% when "4" %}Abril
+				{% when "5" %}Mayo
+				{% when "6" %}Junio
+				{% when "7" %}Julio
+				{% when "8" %}Agosto
+				{% when "9" %}Septiembre
+				{% when "10" %}Octubre
+				{% when "11" %}Noviembre
+				{% when "12" %}Diciembre
+			{% endcase %}/ {{ page.date | date: "%Y" }}
+    	</time>
+        <h1 class="post-title">
+            {{ page.title }}
+        </h1>
+        <ul class="post-category">
+            {% for category in page.categories %}
+                <li><a href="/categoria/{{ category }}/" rel="category tag">{{ category | upcase }}</a></li>
+            {% endfor %}
+        </ul>
+    </header>
+    <!-- /.post-head -->
+
+    {% if page.coverPhoto %}
+        <div class="post-image">
+            <a href="{{ site.baseurl }}{{ page.url }}">
+                <img width="1280" src="/assets/img/{{ page.coverPhoto }}" class="attachment-featured-image size-featured-image wp-post-image" alt="">           
+            </a>
+        </div>
+    {% endif %}
+    <div class="post-body">
+        {% include series.html %}
+        <div class="entry" itemprop="articleBody">
+            {{ content }}
+        </div>
+        <!-- /.entry -->
+    </div>
+    <!-- /.post-body -->
+
+	<div class="post-foot">
+		<div class="socials">
+            {% include share.html %}
+		</div>
+	</div>
+	    <!-- /.post-nav -->
+</article>
+<!-- /.post -->
+
+<!-- If disqusUsername declared -->
+<!-- {% if site.disqusUsername != "" %}
+	<div class="full">
+		<div id="disqus_thread" class="mt mb"></div>
+		<script async src="//{{ site.disqusUsername }}.disqus.com/embed.js"></script>
+	</div>
+{% endif %} -->

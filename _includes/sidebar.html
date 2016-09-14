@@ -1,0 +1,70 @@
+<div class="sidebar">
+    <aside class="widget widget_about">
+        <!-- /.about-image -->
+        <div class="widget-title">
+            <h3 class="widgettitle">¡Bienvenido!</h3>
+        </div>
+        <!-- /.widget-title -->
+        <div class="textwidget">
+            <p>Mi objetivo es compartir todo lo que pueda sobre mejorar nuestras finanzas y vivir mejor con menos.</p>
+        </div>
+        <!-- /.textwidget -->
+    </aside>
+
+    <aside class="widget widget_about">
+        <div class="widget-title">
+            <h3 class="widgettitle">Seguir a Finesfera</h3>
+        </div>
+
+        <div class="textwidget">
+            <div class="follow-buttons">
+                <a target="_blank" href="https://facebook.com/finesfera">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                </a>
+
+                <a target="_blank" href="https://twitter.com/finesfera">
+                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                </a>
+
+                <a target="_blank" href="https://plus.google.com/+Finesfera">
+                    <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+                </a>
+
+                <a target="_blank" href="http://finesfera.com/feed.xml">
+                    <i class="fa fa-rss-square" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </aside>
+ <!--    <aside id="archives-4" class="widget widget_archive location-sidebar">
+        <div class="widget-title">
+            <h3 class="widgettitle">Archive</h3>
+        </div>
+
+        <ul>
+            {% assign counter = 0 %}
+            {% for post in site.posts %}
+                {% assign thisyear = post.date | date: "%B %Y" %}
+                {% assign prevyear = post.previous.date | date: "%B %Y" %}
+                {% assign counter = counter | plus: 1 %}
+                {% if thisyear != prevyear %}
+                    <li><a href="/{{ post.date | date: "%Y" }}/{{ post.date | date: "%m"}}/">{{ thisyear }} ({{ counter }})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </aside> -->
+
+    <aside id="recent-posts-2" class="widget widget_recent_entries location-sidebar">
+        <div class="widget-title">
+            <h3 class="widgettitle">Mejores artículos</h3>
+        </div>
+        <ul>
+            {% for post in site.posts limit: 5 %}
+                <li>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </aside>
+</div>
+<!-- /.sidebar -->
