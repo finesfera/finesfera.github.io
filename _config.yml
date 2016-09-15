@@ -53,11 +53,7 @@ sass:
     style: compressed
     sass_dir: _sass
 
-compress_html:
-  comments: ["<!-- ", " -->"]
-
 include: [.nojekyll]
-
 
 jekyll-archives:
   enabled:
