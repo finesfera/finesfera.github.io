@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cómo empezar a invertir (I)"
-date:   2016-09-15
+date:   2016-09-15 00:00:05 +0200
 categories: inversion
 series: "Guía de inversión"
 coverPhoto: chicken.jpeg
