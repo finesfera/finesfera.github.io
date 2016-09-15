@@ -27,7 +27,7 @@ paginateLabel: pagina
 paginate_path: "pagina/:num"
 permalink: /:year/:month/:title
 
-url: "http://finesfera.com"
+url: "https://finesfera.com"
 
 # Includes
 addthisId: ""
