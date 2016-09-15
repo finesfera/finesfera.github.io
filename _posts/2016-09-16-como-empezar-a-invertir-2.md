@@ -4,6 +4,7 @@ title:  "Cómo empezar a invertir (II)"
 date:   2016-09-16 02:00:05 +0200
 categories: inversion
 series: "Guía de inversión"
+description: "En este tercer artículo de la serie me gustaría hablar más de las circunstancias que podemos tener a la hora de invertir y cómo suavizar el camino comprando no sólo acciones de empresas sino también renta fija."
 ---
 
 En este tercer artículo de la serie me gustaría hablar más de las circunstancias que podemos tener a la hora de invertir y cómo suavizar el camino comprando no sólo acciones de empresas sino también renta fija.

@@ -5,6 +5,7 @@ date:   2016-09-15 00:00:05 +0200
 categories: inversion
 series: "Guía de inversión"
 coverPhoto: chicken.jpeg
+description: "En este segundo artículo de la serie me gustaría hablar de cómo empezar a invertir y en qué fondos de inversión hacerlo, viendo las diferentes posibilidades que tenemos."
 ---
 
 En este segundo artículo de la serie me gustaría hablar de cómo empezar a invertir y en qué fondos de inversión hacerlo, viendo las diferentes posibilidades que tenemos.

@@ -4,6 +4,7 @@ title:  "El riesgo y la bolsa"
 date:   2016-09-13 06:20:05 +0200
 categories: inversion
 series: "Guía de inversión"
+description: "En esta serie de artículos compartiré todo lo relacionado con la inversión que aconsejo. Un plan sencillo, eficiente y fácil de seguir para que nuestro dinero trabaje por nosotros"
 ---
 
 En esta serie de artículos compartiré todo lo relacionado con la inversión que aconsejo y sigo personalmente. Un plan sencillo, eficiente y fácil de seguir para que nuestro dinero trabaje por nosotros. También intentaré desterrar algunas ideas preconcebidas que tenemos respecto a invertir y el mundo de la bolsa. Vamos a ello con el primero.
