@@ -3,7 +3,7 @@ layout: post
 title:  "No se precisa"
 date:   2016-09-19 04:00:05 +0200
 categories: finanzas
-description: ""
+description: "De vez en cuando es importante que paremos un poco en nuestro mundo tan ajetreado y pensemos si lo que hacemos tiene sentido. A veces, las reflexiones de gente sabia, que ha vivido más y ha reflexionado mucho sobre esto de vivir nos ayuda."
 ---
 
 De vez en cuando es importante que paremos un poco en nuestro mundo tan ajetreado y pensemos si lo que hacemos tiene sentido. A veces, las reflexiones de gente sabia, que ha vivido más y ha reflexionado mucho sobre esto de vivir nos ayuda. 
