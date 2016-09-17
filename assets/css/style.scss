@@ -9748,7 +9748,7 @@ textarea {
 
 .post .entry h2 {
   padding-bottom: 6px;
-  font-size: 34px;
+  font-size: 1.9em;
 }
 
 .post .entry {
@@ -10219,12 +10219,23 @@ pre {
     padding: 15px 0;
   }
   .post-title {
-    font-size: 18px;
+    font-size: 2em;
   }
   .post .entry {
     padding: 0 20px;
   }
+
+  .post .entry h2 {
+    font-size: 1.7em;
+  }
+
+  .post .entry h3 {
+    font-size: 1.3em;
+  }
   .post .entry p {
+    font-size: 15px;
+  }
+  .post .entry ul li, .post .entry ul li a {
     font-size: 15px;
   }
   .post .entry blockquote p {
