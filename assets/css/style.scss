@@ -10,54 +10,6 @@
 \* ------------------------------------------------------------ */
 /* ------------------------------------------------------------ * Fonts
 \* ------------------------------------------------------------ */
-@font-face {
-  font-family: 'Helvetica';
-  src: url("../font/Helvetica_400_normal_1427279176.eot");
-  src: url("../font/Helvetica_400_normal_1427279176.eot?#iefix") format("embedded-opentype"), url("../font/Helvetica_400_normal_1427279176.svg#Helvetica") format("svg"), url("../font/Helvetica_400_normal_1427279176.woff") format("woff"), url("../font/Helvetica_400_normal_1427279176.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Helvetica';
-  src: url("../font/Helvetica_300_normal_1427279176.eot");
-  src: url("../font/Helvetica_300_normal_1427279176.eot?#iefix") format("embedded-opentype"), url("../font/Helvetica_300_normal_1427279176.svg#Helvetica") format("svg"), url("../font/Helvetica_300_normal_1427279176.woff") format("woff"), url("../font/Helvetica_300_normal_1427279176.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Helvetica';
-  src: url("../font/Helvetica_400_italic_1427279176.eot");
-  src: url("../font/Helvetica_400_italic_1427279176.eot?#iefix") format("embedded-opentype"), url("../font/Helvetica_400_italic_1427279176.svg#Helvetica") format("svg"), url("../font/Helvetica_400_italic_1427279176.woff") format("woff"), url("../font/Helvetica_400_italic_1427279176.ttf") format("truetype");
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Helvetica';
-  src: url("../font/Helvetica_300_italic_1427279176.eot");
-  src: url("../font/Helvetica_300_italic_1427279176.eot?#iefix") format("embedded-opentype"), url("../font/Helvetica_300_italic_1427279176.svg#Helvetica") format("svg"), url("../font/Helvetica_300_italic_1427279176.woff") format("woff"), url("../font/Helvetica_300_italic_1427279176.ttf") format("truetype");
-  font-weight: 300;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Helvetica';
-  src: url("../font/Helvetica_700_normal_1427279176.eot");
-  src: url("../font/Helvetica_700_normal_1427279176.eot?#iefix") format("embedded-opentype"), url("../font/Helvetica_700_normal_1427279176.svg#Helvetica") format("svg"), url("../font/Helvetica_700_normal_1427279176.woff") format("woff"), url("../font/Helvetica_700_normal_1427279176.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Helvetica';
-  src: url("../font/Helvetica_700_italic_1427279176.eot");
-  src: url("../font/Helvetica_700_italic_1427279176.eot?#iefix") format("embedded-opentype"), url("../font/Helvetica_700_italic_1427279176.svg#Helvetica") format("svg"), url("../font/Helvetica_700_italic_1427279176.woff") format("woff"), url("../font/Helvetica_700_italic_1427279176.ttf") format("truetype");
-  font-weight: bold;
-  font-style: italic;
-}
-
 /*  Colors  */
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic%7CRaleway:400,300,200,100,900,800,700,600,500);
 meta.foundation-version {
@@ -134,17 +86,13 @@ body {
   background: #fff;
   color: #222;
   cursor: auto;
-  font-family: Arial, sans-serif;
+  font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
   margin: 0;
   padding: 0;
   position: relative;
-}
-
-.fonts-loaded body {
-  font-family: "Helvetica", "Helvetica Neue", Roboto, Arial, sans-serif;
 }
 
 a:hover {
@@ -6147,12 +6095,13 @@ meta.foundation-mq-topbar {
 .top-bar-section ul li > a {
   color: #ffffff;
   display: block;
-  font-size: 0.8125rem;
+  font-size: 0.8525rem;
   font-weight: normal;
   padding-left: 0.9375rem;
   padding: 12px 0 12px 0.9375rem;
   text-transform: none;
   width: 100%;
+  letter-spacing: 0.05rem;
 }
 
 .top-bar-section ul li > a.button, .top-bar-section ul .woocommerce li > a.button, .top-bar-section ul .woocommerce-cart .wc-proceed-to-checkout li > a.checkout-button, .woocommerce-cart .wc-proceed-to-checkout .top-bar-section ul li > a.checkout-button, .woocommerce .top-bar-section ul li > a.button.alt {
@@ -8717,7 +8666,7 @@ h4 {
 }
 
 .header #menu-main-menu .menu-item a:hover {
-  color: #117dbf;
+  color: #d95204;
 }
 
 @media only screen and (max-width: 979px) {
@@ -8954,12 +8903,12 @@ body {
   color: #222222;
 
   &:hover {
-    color: #4d4d4d;
+    color: #d95204;
   }
 }
 
 .widget p {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -9053,26 +9002,33 @@ body {
 .widget ul {
   list-style: none outside none;
   margin: 0;
-  border-top: 1px dashed #121212;
+  border-top: 1px dashed #ababab;
   margin-right: 20px;
-  margin-top: 30px;
+  margin-top: 25px;
   padding-bottom: 23px;
 }
 
 .widget li {
-  border-bottom: 1px dashed #121212;
+  border-bottom: 1px dashed #ababab;
+  text-align: center;
+
+  &:last-child {
+    border-bottom: none; 
+  }
 }
 
 .widget ul a {
   display: block;
   color: #121212;
   padding: 14px 18px 13px;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: lighter;
+
+
 }
 
 .widget ul a:hover, .current-menu-item > a {
-  color: #117dbf;
+  color: #d95204;
 }
 
 .widget ul a {
@@ -9714,9 +9670,9 @@ textarea {
 
 .post-date {
   color: #7b7b7b;
-  text-transform: uppercase;
   font-size: 13px;
   margin-bottom: 13px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .post-title {
@@ -9732,7 +9688,7 @@ textarea {
 }
 
 .post-title a:hover {
-  color: #117dbf;
+  color: #d95204;
 }
 
 .post-category {
@@ -9759,6 +9715,7 @@ textarea {
 
 .post-category a {
   color: #d95204;
+  font-family: 'Raleway', sans-serif;
 }
 
 .post-category a:hover {
@@ -9794,8 +9751,14 @@ textarea {
   font-size: 34px;
 }
 
+.post .entry {
+  a, li, ul, p {
+    font-size: 17px;
+  }
+}
+
 .post .entry p {
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.7;
   color: #121212;
 }
@@ -9805,7 +9768,7 @@ textarea {
 }
 
 .post .entry ul li {
-  padding-top: 15px;
+  padding-top: 12px;
 }
 
 .post .entry ul li:first-child {
@@ -10894,6 +10857,10 @@ ul.project-tiles {
   color: white;
   font-weight: bold;
   padding: 0 !important;
+}
+
+#recent-posts-2 ul {
+  padding-bottom: 0;
 }
 
 .widget .project-tile-overlay p a {
