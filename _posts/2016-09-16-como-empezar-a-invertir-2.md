@@ -14,7 +14,7 @@ En este tercer artículo de la serie me gustaría hablar más de las circunstanc
 
 Cómo has visto en ciertas gráficas y has oído muchas veces, en el mercado se producen fluctuaciones, la bolsa sube y baja, a veces de manera abrupta y esto, si tenemos dinero invertido, significa que lo que antes podíamos vender por X ahora nos lo compran por menos.
 
-No significa que el valor intrínsico de lo que tenemos sea menor, nosotros seguimos poseemos partes pequeñas de empresas con mucho poder y mucha gente esforzándose día a día para que crezcan, pero por ahora la venta resulta más complicada. 
+No significa que el valor intrínsico de lo que tenemos sea menor, nosotros seguimos poseyendo partes pequeñas de empresas con mucho poder y mucha gente esforzándose día a día para que crezcan, pero por ahora la venta resulta más complicada. 
 
 Tampoco implica ni mucho menos que perdamos dinero, la única manera de perder dinero en esta situación es cuando vendemos y nuestro horizonte temporal debería ser muy grande, aunque claro, esto depende de nuestras circunstancias personales y de la edad que tengamos y de esto me gustaría hablar en este artículo.
 
