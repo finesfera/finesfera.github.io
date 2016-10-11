@@ -8,7 +8,7 @@ description: "El minimalismo nos puede ayudar a ahorrar más y hacer el proceso 
 
 Además de que creamos que ahorrar está bien y nos protege de los vaivenes de la vida de una forma que pocas cosas pueden hacer, es importante sustentar con técnicas y creencias concretas que hacen que este proceso de no gastar tanto dinero sea más fácil, incluso, que nos haga más felices que hacerlo.
 
-Lo de vivir con poco y ser felices sin gastar mucho no es algo nuevo, de hecho, hace dos siglos ya había gente como [David Thoreau](https://es.wikipedia.org/wiki/Henry_David_Thoreau) que se planteaba que la verdadera felicidad no se conseguía a través de cosas materiales. Pero además de estas corrientes de pensamiento más antiguas, tenemos otras ideas más modernas que han calado en mucha gente contemporánea, una de ellas es el minimalismo.
+Lo de vivir con poco y ser felices sin gastar mucho no es algo nuevo, de hecho, hace dos siglos ya había gente como [David Thoreau](https://es.wikipedia.org/wiki/Henry_David_Thoreau) que se planteaba que la verdadera felicidad no se conseguía a través de cosas materiales. Pero además de estas corrientes de pensamiento más antiguas, tenemos otras ideas más modernas que han calado en mucha gente, una de ellas es el minimalismo.
 
 ## En qué consiste el minimalismo
 
@@ -16,11 +16,11 @@ El minimalismo no es más que quedarse con lo mínimo, sin tener otros elementos
 
 ![Apple Store en Berlín](/assets/img/apple.jpg "Apple Store en Berlín")
 
-A nivel personal y de nuestras posesiones, el minimalismo implica quedarnos cono lo mínimo que necesitemos para ser felices. Tan sencillo y complicado como eso.
+A nivel personal y de nuestras posesiones, el minimalismo implica quedarnos con lo mínimo que necesitemos para ser felices. Tan sencillo y complicado como eso.
 
 ## Ventajas del minimalismo
 
-El minimalismo tiene muchas ventajas, una de ellas es que no tenemos que perder ni tiempo ni dinero guardando cosas que no haecn falta. Por ejemplo, podemos tener una casa más pequeña si tenemos menos cosas.
+El minimalismo tiene muchas ventajas, una de ellas es que no tenemos que perder ni tiempo ni dinero guardando cosas que no hacen falta. Por ejemplo, podemos tener una casa más pequeña si tenemos menos cosas.
 
 También perdemos menos tiempo con nuestras posesiones, buscando cosas que necesitamos entre otras que guardamos porque nos da pena tirar.
 
