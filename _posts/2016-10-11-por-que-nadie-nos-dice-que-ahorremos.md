@@ -4,10 +4,10 @@ title:  "Por qué nadie nos dice que ahorremos"
 date:   2016-10-11 04:00:05 +0200
 categories: ahorro
 coverPhoto: money.jpg
-description: "Casi nadie nos dice que ahorremos. Es la única manera de protegernos de los cambios que trae la vida y de mandar a pasear a un jefe si nos apetece hacer otra cosa durante un tiempo y, sin embargo, poca gente nos da este consejo a lo largo de nuestras vidas."
+description: "Casi nadie nos dice que ahorremos. Es la única manera de protegernos de los cambios que trae la vida y de poder hacer otras cosas durante un tiempo sin depender de un sueldo mes a mes y, sin embargo, poca gente nos da este consejo a lo largo de nuestras vidas."
 ---
 
-Casi nadie nos dice que ahorremos. Es la única manera de protegernos de los cambios que trae la vida y de mandar a pasear a un jefe si nos apetece hacer otra cosa durante un tiempo y, sin embargo, poca gente nos da este consejo a lo largo de nuestras vidas.
+Casi nadie nos dice que ahorremos. Es la única manera de protegernos de los cambios que trae la vida y de poder hacer otras cosas durante un tiempo sin depender de un sueldo mes a mes y, sin embargo, poca gente nos da este consejo a lo largo de nuestras vidas.
 
 La pregunta que llevo planteándome tiempo es por qué. ¿Por qué nadie nos dice que ahorremos si es algo tan positivo y que nos da tanta libertad? Creo que hay varias razones dependiendo de quién estemos hablando:
 
