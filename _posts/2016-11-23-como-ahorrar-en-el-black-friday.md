@@ -1,7 +1,7 @@
 ---
 layout: post
 date:   2016-11-23 04:00:05 +0200
-categories: finanzas
+categories: ahorro
 description: "La mayoría de cosas que nos vamos a comprar en el Black Friday no son necesarias para tu felicidad. De hecho, es probable que tras un par de semanas con ellas seas igual de feliz que antes de tenerlas."
 coverPhoto: run.jpg
 title:  "Cómo ahorrar más en el Black Friday"
